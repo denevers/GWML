@@ -6,19 +6,18 @@
 <!ENTITY nil "http://www.opengis.net/def/nil/OGC/0/unknown">
 ]>
 <gwml2:GW_AquiferSystem 
-xmlns:gu="http://xmlns.geosciml.org/GeologicUnit/3.2" 
 xmlns:gml="http://www.opengis.net/gml/3.2" 
 xmlns:gwml2="http://www.opengis.net/gwml-main/2.2" 
 xmlns:gwml2f="http://www.opengis.net/gwml-flow/2.2" 
-xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Basic/4.0" 
-xmlns:gsmle="http://xmlns.geosciml.org/GeoSciML-Extension/4.0" 
+xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Basic/4.1" 
+xmlns:gsmle="http://xmlns.geosciml.org/GeoSciML-Extension/4.1" 
 gml:id="gin.1" 
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:swe="http://www.opengis.net/swe/2.0" 
 xmlns:gmd="http://www.isotc211.org/2005/gmd" 
 xmlns:gco="http://www.isotc211.org/2005/gco" 
 xmlns:om="http://www.opengis.net/om/2.0" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/gwml-main/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-main.xsd http://xmlns.geosciml.org/GeoSciML-Extension/4.0 http://schemas.geosciml.org/geosciml/4.0/geoSciMLExtension.xsd">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/gwml-main/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-main.xsd http://xmlns.geosciml.org/GeoSciML-Extension/4.1 http://schemas.geosciml.org/geosciml/4.1/geoSciMLExtension.xsd">
 	<!-- Eric Boisvert, Geological Survey of Canada, 2014/06/05 *WORK IN PROGRESS* -->
 	<gml:identifier codeSpace="http://www.ietf.org/rfc/rfc2616">/features/GW_AquiferSystem/gin.1</gml:identifier>
 	<gml:name codeSpace="http://gw-info.net/identifiers">urn:db:ngwd:gw_data:hydrogeological_units:3</gml:name>
@@ -224,7 +223,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http:/
 
 	
 	<gwml2:gwUnitMedia xlink:href="http://gw-info.net/media/granular" xlink:title="granular"/>
-	<gwml2:gwUnitWaterBudget xsi:nil="true"/>
+	<gwml2:gwUnitWaterBudget xsi:nil="true" nilReason="missing"/>
 	<gwml2:gwUnitRecharge>
 		<gwml2f:GW_Recharge gml:id="gin.richelieu.recharge.1">
 			<gml:location>
