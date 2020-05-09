@@ -7,11 +7,11 @@ xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="htt
 
         (adapted from WaterML 2.0)
 
-        OGC WaterML 2.0 Part 4 - GroundWaterML 2 is an OGC Standard.
+        OGC WaterML 2.2 Part 4 - GroundWaterML 2 is an OGC Standard.
         Copyright (c) 2016 Open Geospatial Consortium.
         To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
 
-        version="2.2.0"
+        version="2.2.1"
     -->
     <xsl:import-schema schema-location="http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd" namespace="http://www.opengis.net/gwml-well/2.2"/>
 

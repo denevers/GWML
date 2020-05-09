@@ -7,7 +7,12 @@ xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="htt
         in the requirements class: http://www.opengis.net/spec/gwml/2.2/req/well-xsd-cov when using Log Coverage profile
         
 (adapted from WaterML 2.0)
-       
+
+         OGC WaterML 2.0 Part 4 - GroundWaterML 2 is an OGC Standard.
+        Copyright (c) 2016 Open Geospatial Consortium.
+        To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
+
+        version="2.2.1"
     -->
 	<xsl:import-schema schema-location="http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd" namespace="http://www.opengis.net/gwml-well/2.2"/>
 
@@ -27,21 +32,21 @@ xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="htt
 
 
 	<pattern id="req.well-xsd.well-geology">
-		<title>Test requirement: /req/well-xsd/well-geology</title>
+		<title>Test requirement: /req/well-xsd-cov/well-geology</title>
 		<rule context="gwml2w:GW_Well/sams:relatedObservation">
 			<assert test="not(schema-element(gwml2w:GW_GeologyLog))">Geology log shall be referenced from a GW_Well using gwWellGeology</assert>
 		</rule>
 	</pattern>
 	
 	<pattern id="req.well-xsd.log-coverage">
-		<title>Test requirement: /req/well-xsd/log-coverage</title>
+		<title>Test requirement: /req/well-xsd-cov/log-coverage</title>
 		<rule context="gwml2w:GW_GeologyLog/om:result">
 			<assert test="gwml2w:GW_GeologyLogCoverage">Result of a GW_GeologyLog shall be a GW_GeologyLogCoverage</assert>
 		</rule>
 	</pattern>
 	
 	<pattern id="req.well-xsd.log-depth-order">
-		<title>Test requirement: /req/well-xsd/log-depth-order</title>
+		<title>Test requirement: /req/well-xsd-cov/log-depth-order</title>
 		<rule context="gwml2w:LogValue">
 			<let name="from" value="gwml2w:fromDepth/swe:Quantity"/>
 			<let name="to" value="gwml2w:toDepth/swe:Quantity"/>

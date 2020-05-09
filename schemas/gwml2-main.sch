@@ -2,7 +2,7 @@
 <schema fpi="http://schemas.opengis.net/gwml/2.2/xml-rules.sch" see="http://www.opengis.net/def/gwml/2.2/req/main-xsd" 
 xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<!--
-        This schematron schema checks the XML encoding requirements of OGC GWML2.0, as specified
+        This schematron schema checks the XML encoding requirements of OGC GWML2.2, as specified
         in the requirements class: http://www.opengis.net/spec/gwml/2.0/req/xsd-xml-rules
 
         (adapted from WaterML 2.0)
@@ -11,7 +11,7 @@ xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="htt
         Copyright (c) 2016 Open Geospatial Consortium.
         To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
 
-        version="2.2.0"
+        version="2.2.1"
     -->
     <xsl:import-schema schema-location="http://schemas.opengis.net/gwml/2.2/gwml2-main.xsd" namespace="http://www.opengis.net/gwml-main/2.2"/>
 

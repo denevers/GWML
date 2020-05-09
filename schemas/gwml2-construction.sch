@@ -7,11 +7,11 @@ see="http://www.opengis.net/def/gwml/2.2/req/construction-xsd" xmlns="http://pur
 
         (adapted from WaterML 2.0)
 
-        OGC WaterML 2.0 Part 4 - GroundWaterML 2 is an OGC Standard.
+        OGC WaterML 2.2 Part 4 - GroundWaterML 2 is an OGC Standard.
         Copyright (c) 2016 Open Geospatial Consortium.
         To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
 
-        version="2.2.0"
+        version="2.2.1"
     -->
     <xsl:import-schema schema-location="http://schemas.opengis.net/gwml/2.2/gwml2-wellconstruction.xsd" namespace="http://www.opengis.net/gwml-wellconstruction/2.2"/>
 
