@@ -81,28 +81,6 @@ xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="htt
 		</rule>
 	</pattern>
 
-	<pattern id="req.well-xsd.well-geology">
-		<title>Test requirement: /req/well-xsd/well-geology</title>
-		<rule context="gwml2w:GW_Well/sams:relatedObservation">
-			<assert test="not(schema-element(gwml2w:GW_GeologyLog))">Geology log shall be referenced from a GW_Well using gwWellGeology</assert>
-		</rule>
-	</pattern>
-
-	<pattern id="req.well-xsd.log-coverage">
-		<title>Test requirement: /req/well-xsd/log-coverage</title>
-		<rule context="gwml2w:GW_GeologyLog/om:result">
-			<assert test="gwml2w:GW_GeologyLogCoverage">Result of a GW_GeologyLog shall be a GW_GeologyLogCoverage</assert>
-		</rule>
-	</pattern>
-
-	<pattern id="req.well-xsd.log-depth-order">
-		<title>Test requirement: /req/well-xsd/log-depth-order</title>
-		<rule context="gwml2w:LogValue">
-		<let name="from" value="gwml2w:fromDepth/swe:Quantity"/>
-		<let name="to" value="gwml2w:toDepth/swe:Quantity"/>
-		<!-- either one of the value is nil OR from is less than to -->
-			<assert test="$from/swe:value/@nil='true' or $to/swe:value/@nil='true' or $from/swe:value le $to/swe:value">fromDepth must be less that toDepth</assert>
-		</rule>
-	</pattern>
+	
 
 </schema>
