@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wfs:FeatureCollection timeStamp="2015-06-08T15:10:08" xsi:schemaLocation="http://www.opengis.net/gwml-main/2.1 http://schemas.opengis.net/gwml/2.1/gwml2-main.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd " numberReturned="1" numberMatched="1" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gwml-main="http://www.opengis.net/gwml-main/2.1" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:samplingspatial="http://www.opengis.net/samplingSpatial/2.0" xmlns:ns0="http://xmlns.geosciml.org/GeologicTime/3.2" xmlns:ns1="http://xmlns.geosciml.org/GeologicAge/3.2" xmlns:sampling="http://www.opengis.net/sampling/2.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://xmlns.geosciml.org/PhysicalProperties/3.2" xmlns:ns3="http://xmlns.geosciml.org/GeologicUnit/3.2" xmlns:ns4="http://xmlns.geosciml.org/EarthMaterial/3.2" xmlns:gwml-flow="http://www.opengis.net/gwml-flow/2.1" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gwml-constituent="http://www.opengis.net/gwml-constituent/2.1" xmlns:ns5="http://xmlns.geosciml.org/GeoSciML-Core/3.2">
+<wfs:FeatureCollection timeStamp="2015-06-08T15:10:08" xsi:schemaLocation="http://www.opengis.net/gwml-main/2.2 ../schemas/gwml2-main.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd" numberReturned="1" numberMatched="1" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gwml-main="http://www.opengis.net/gwml-main/2.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:samplingspatial="http://www.opengis.net/samplingSpatial/2.0" xmlns:ns0="http://xmlns.geosciml.org/GeologicTime/3.2"  xmlns:sampling="http://www.opengis.net/sampling/2.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://xmlns.geosciml.org/PhysicalProperties/3.2" xmlns:ns3="http://xmlns.geosciml.org/GeologicUnit/3.2" xmlns:ns4="http://xmlns.geosciml.org/EarthMaterial/3.2" xmlns:gwml-flow="http://www.opengis.net/gwml-flow/2.1" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gwml-constituent="http://www.opengis.net/gwml-constituent/2.2" xmlns:ns5="http://www.opengis.net/gsml/4.1/GeoSciML-Basic">
 	<wfs:member>
 		<gwml-main:GW_Aquifer gml:id="EntiteHydroGeol.121AD05">
 			<!-- Sylvain Grellet, BRGM  2014/07/07th - WFS server connected to BDLISA v0 -->
@@ -13,7 +13,7 @@
 					<swe:value>http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:698::CdElement:1:::referentiel:3.1:xml</swe:value>
 				</swe:Category>
 			</ns5:observationMethod>
-			<ns5:purpose>instance</ns5:purpose>
+			
 			<ns5:occurrence>
 				<!-- not much geological information as, for now, our hydrogeological reference dataset is not connected country-wide to our geological reference dataset-->
 				<ns5:MappedFeature gml:id="MappedFeature.1">
@@ -23,14 +23,9 @@
 						</swe:Category>
 					</ns5:observationMethod>
 					<ns5:positionalAccuracy nilReason="unknown" xsi:nil="true"/>
-					<ns5:resolutionScale>
-						<gmd:MD_RepresentativeFraction>
-							<gmd:denominator>
-								<gco:Integer>50000</gco:Integer>
-							</gmd:denominator>
-						</gmd:MD_RepresentativeFraction>
-					</ns5:resolutionScale>
-					<ns5:samplingFrame xlink:href="http://resource.geosciml.org/feature/brgm/EarthBedrockSurface"/>
+					<ns5:resolutionRepresentativeFraction>50000</ns5:resolutionRepresentativeFraction>
+					<ns5:mappingFrame xlink:href="http://resource.geosciml.org/feature/brgm/EarthBedrockSurface"/>
+					<ns5:specification xlink:href="#EntiteHydroGeol121AD05"/>
 					<ns5:shape>
 						<gml:MultiSurface gml:id="MultiSurface.1" srsName="EPSG:4326" xmlns:ns8="http://www.opengis.net/gml" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx">
 							<gml:surfaceMember>
@@ -143,30 +138,14 @@
 							</gml:surfaceMember>
 						</gml:MultiSurface>
 					</ns5:shape>
-					<ns5:specification xlink:href="#EntiteHydroGeol121AD05"/>
-					<ns5:metadata gco:nilReason="unknown" xsi:nil="true"/>
+					
+					
 				</ns5:MappedFeature>
 			</ns5:occurrence>
-			<ns5:relatedFeature xsi:nil="true"/>
+<ns5:purpose>instance</ns5:purpose>			
 			<ns5:classifier nilReason="unknown" xsi:nil="true"/>
-			<ns5:metadata gco:nilReason="unknown" xsi:nil="true"/>
-			<ns3:geologicUnitType xlink:href="http://resource.geosciml.org/classifier/cgi/geologicunittype/hydrogeologic_unit" xlink:title="Hydrogeologic Unit"/>
-			<ns3:bodyMorphology nilReason="missing" xsi:nil="true"/>
-			<ns3:unitComposition nilReason="missing" xsi:nil="true"/>
-			<ns3:exposureColor nilReason="inapplicable" xsi:nil="true"/>
-			<ns3:outcropCharacter nilReason="unknown" xsi:nil="true"/>
-			<ns3:rank nilReason="missing" xsi:nil="true"/>
-			<ns3:unitThickness nilReason="unknown" xsi:nil="true"/>
-			<ns3:composition nilReason="unknown" xsi:nil="true"/>
-			<ns3:metamorphicCharacter nilReason="inapplicable" xsi:nil="true"/>
-			<ns3:part nilReason="missing" xsi:nil="true"/>
-			<ns3:physicalProperty nilReason="missing" xsi:nil="true"/>
-			<ns3:alterationCharacter nilReason="missing" xsi:nil="true"/>
-			<ns3:bedding nilReason="missing" xsi:nil="true"/>
-			<ns3:geochemistry nilReason="missing" xsi:nil="true"/>
+			<ns5:geologicUnitType xlink:href="http://resource.geosciml.org/classifier/cgi/geologicunittype/hydrogeologic_unit" xlink:title="Hydrogeologic Unit"/>
 			<gwml-main:gwUnitMedia xlink:href="http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:353::CdElement:4:::referentiel:3.1:xml" xlink:title="Matricielle / fissuré"/>
-			<gwml-main:gwUnitRecharge nilReason="missing" xsi:nil="true"/>
-			<gwml-main:gwUnitDischarge nilReason="missing" xsi:nil="true"/>
 			<gwml-main:gwUnitVulnerability/>
 			<gwml-main:gwUnitFluidBody/>
 			<gwml-main:gwUnitVoid nilReason="missing" xsi:nil="true"/>
