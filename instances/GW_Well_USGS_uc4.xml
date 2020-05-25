@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<wfs:FeatureCollection xmlns:sql="http://apache.org/cocoon/SQL/2.0" xmlns:gsmlpp="http://xmlns.geosciml.org/PhysicalProperties/4.0" xmlns:gww="http://www.opengis.net/gwml-well/2.2" xmlns:gwml="http://www.nrcan.gc.ca/xml/gwml/1" xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Core/4.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gu="http://xmlns.geosciml.org/GeologicUnit/4.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gsmlga="http://xmlns.geosciml.org/GeologicAge/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gwml2="http://www.opengis.net/gwml-main/2.2" xmlns:cv="http://www.opengis.net/cv/0.2/gml32" xmlns:gwml2f="http://www.opengis.net/gwml-flow/2.2" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:gwml2wc="http://www.opengis.net/gwml-wellconstruction/2.2" xmlns:sa="http://www.opengis.net/sampling/1.0" xmlns:gwml2c="http://www.opengis.net/gwml-constituent/2.2" xmlns:gsmlem="http://xmlns.geosciml.org/EarthMaterial/4.0" xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd http://www.opengis.net/samplingSpecimen/2.0 http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd">
+<wfs:FeatureCollection xmlns:sql="http://apache.org/cocoon/SQL/2.0" xmlns:gsmlpp="http://xmlns.geosciml.org/PhysicalProperties/4.0" xmlns:gww="http://www.opengis.net/gwml-well/2.2" xmlns:gwml="http://www.nrcan.gc.ca/xml/gwml/1" xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Core/4.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gu="http://xmlns.geosciml.org/GeologicUnit/4.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gsmlga="http://xmlns.geosciml.org/GeologicAge/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gwml2="http://www.opengis.net/gwml-main/2.2" xmlns:cv="http://www.opengis.net/cv/0.2/gml32" xmlns:gwml2f="http://www.opengis.net/gwml-flow/2.2" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:gwml2wc="http://www.opengis.net/gwml-wellconstruction/2.2" xmlns:sa="http://www.opengis.net/sampling/1.0" xmlns:gwml2c="http://www.opengis.net/gwml-constituent/2.2" xmlns:gsmlem="http://xmlns.geosciml.org/EarthMaterial/4.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gwml-well/2.2 ../schemas/gwml2-well.xsd http://www.opengis.net/samplingSpecimen/2.0 http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd" timeStamp="2020-05-25T07:48:31" numberMatched="1" numberReturned="1">
 	<wfs:member>
 		<gww:GW_Well gml:id="WELL.USGS.403836085374401">
-			<gml:metaDataProperty xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gml:metaDataProperty>
 				<gml:GenericMetaData>
 					<gmd:CI_ResponsibleParty>
 						<gmd:organisationName>
@@ -25,17 +25,17 @@
 					</gmd:CI_ResponsibleParty>
 				</gml:GenericMetaData>
 			</gml:metaDataProperty>
-			<gml:identifier xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" codeSpace="http://www.ietf.org/rfc/rfc2616">
+			<gml:identifier  codeSpace="http://www.ietf.org/rfc/rfc2616">
 				http://cida.usgs.gov/ngwmn/feature/USGS.403836085374401</gml:identifier>
-			<gml:name xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" codeSpace="http://cida.usgs.gov/water/groundwater/SiteNo">403836085374401</gml:name>
-			<sam:sampledFeature xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://cida.usgs.gov/ngwmn/feature/USGS.403836085374401"/>
-			<sams:shape xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gml:name  codeSpace="http://cida.usgs.gov/water/groundwater/SiteNo">403836085374401</gml:name>
+			<sam:sampledFeature  xlink:href="http://cida.usgs.gov/ngwmn/feature/USGS.403836085374401"/>
+			<sams:shape >
 				<gml:Point gml:id="WELL.USGS.403836085374401.shape" srsDimension="2" srsName="http://www.opengis.net/gml/srs/epsg.xml#4283">
 					<gml:pos>-85.6288664456762 40.6433756511575</gml:pos>
 				</gml:Point>
 			</sams:shape>
-			<gww:gwWellBody xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
-			<gww:gwWellConstructedDepth xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gww:gwWellBody  xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+			<gww:gwWellConstructedDepth >
 				<om:OM_Observation gml:id="WELL.USGS.403836085374401.constructed-depth">
 					<om:phenomenonTime>
 						<gml:TimeInstant gml:id="WELL.USGS.403836085374401.date">
@@ -54,7 +54,7 @@
 					</om:result>
 				</om:OM_Observation>
 			</gww:gwWellConstructedDepth>
-			<gww:gwWellConstruction xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gww:gwWellConstruction >
 				<gwml2wc:Borehole gml:id="WELL.construction.USGS.403836085374401">
 					<gml:identifier codeSpace="http://www.ietf.org/rfc/rfc2616">http://cida.usgs.gov/ngwmn/feature/WELL.construction.USGS.403836085374401</gml:identifier>
 					<sam:sampledFeature xlink:href="http://cida.usgs.gov/ngwmn/feature/USGS.403836085374401"/>
@@ -117,18 +117,19 @@
 									<gwml2wc:screenAttachmentMethod xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
 									<gwml2wc:screenCoating xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
 									<gwml2wc:screenForm xlink:href="http://cida.usgs.gov/ngwmn/def/borehole-screen-form/screen" xlink:title="screen"/>
+																		<gwml2wc:screenHoleWidth>
+										<swe:Quantity>
+											<swe:uom xlink:href="http://qudt.org/vocab/unit#Inch" xlink:title="inch" code="in"/>
+											<swe:value>0.040</swe:value>
+										</swe:Quantity>
+									</gwml2wc:screenHoleWidth>
 									<gwml2wc:screenHoleLength>
 										<swe:Quantity>
 											<swe:uom xlink:href="http://qudt.org/vocab/unit#Inch" xlink:title="inch" code="in"/>
 											<swe:value>5</swe:value>
 										</swe:Quantity>
 									</gwml2wc:screenHoleLength>
-									<gwml2wc:screenHoleWidth>
-										<swe:Quantity>
-											<swe:uom xlink:href="http://qudt.org/vocab/unit#Inch" xlink:title="inch" code="in"/>
-											<swe:value>0.040</swe:value>
-										</swe:Quantity>
-									</gwml2wc:screenHoleWidth>
+
 									<gwml2wc:screenMaterial xlink:href="http://cida.usgs.gov/ngwmn/def/borehole-screen-material/steel" xlink:title="steel"/>
 									<gwml2wc:screenInternalDiameter>
 										<swe:Quantity>
@@ -164,15 +165,15 @@
 					<gwml2wc:bholeHeadworks/>
 				</gwml2wc:Borehole>
 			</gww:gwWellConstruction>
-			<gww:gwWellContributionZone xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
-			<gww:gwWellLocation xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gww:gwWellContributionZone  xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+			<gww:gwWellLocation >
 				<gml:Point gml:id="WELL.USGS.403836085374401.location" srsName="EPSG:4267">
 					<gml:pos>-85.6288664456762 40.6433756511575</gml:pos>
 				</gml:Point>
 			</gww:gwWellLocation>
-			<gww:gwWellPurpose xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://cida.usgs.gov/ngwmn/def/qw-borehole-purpose/1" xlink:title="Dedicated Monitoring/Observation"/>
-			<gww:gwWellPurpose xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://cida.usgs.gov/ngwmn/def/wl-borehole-purpose/1" xlink:title="Dedicated Monitoring/Observation"/>
-			<gww:gwWellReferenceElevation xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gww:gwWellPurpose  xlink:href="http://cida.usgs.gov/ngwmn/def/qw-borehole-purpose/1" xlink:title="Dedicated Monitoring/Observation"/>
+			<gww:gwWellPurpose  xlink:href="http://cida.usgs.gov/ngwmn/def/wl-borehole-purpose/1" xlink:title="Dedicated Monitoring/Observation"/>
+			<gww:gwWellReferenceElevation >
 				<gww:Elevation>
 					<gww:elevation srsName="http://www.opengis.net/def/crs/EPSG/0/5702" uomLabels="ftUS" srsDimension="1">912.16</gww:elevation>
 					<gww:elevationAccuracy/>
@@ -180,19 +181,19 @@
 					<gww:elevationMeasurementMethod xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
 				</gww:Elevation>
 			</gww:gwWellReferenceElevation>
-			<gww:gwWellStaticWaterDepth xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
-			<gww:gwWellStatus xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
-			<gww:gwWellTotalLength xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0">
+			<gww:gwWellStaticWaterDepth  xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+			<gww:gwWellStatus  xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+			<gww:gwWellTotalLength >
 				<swe:Quantity>
 					<swe:uom xlink:href="http://qudt.org/vocab/unit#Foot" xlink:title="foot" code="ft"/>
 					<swe:value>198.02</swe:value>
 				</swe:Quantity>
 			</gww:gwWellTotalLength>
-			<gww:gwWellUnit xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://cida.usgs.gov/ngwmn/feature/hydrogeologicunit/principal.USGS.403836085374401.N100GLCIAL" xlink:title="Sand and gravel aquifers (glaciated regions)" xlink:role="hydrogeologic unit"/>
-			<gww:gwWellUnit xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://cida.usgs.gov/ngwmn/feature/hydrogeologicunit/local.USGS.403836085374401.112PLSC" xlink:title="Pleistocene Series" xlink:role="hydrogeologic unit"/>
-			<gww:gwWellWaterUse xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
-			<gww:gwWellYield xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
-			<gww:gwWellGeology xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:om="http://www.opengis.net/om/1.0" xlink:href="http://cida.usgs.gov/ngwmn/feature/lithology-log/USGS.403836085374401">
+			<gww:gwWellUnit  xlink:href="http://cida.usgs.gov/ngwmn/feature/hydrogeologicunit/principal.USGS.403836085374401.N100GLCIAL" xlink:title="Sand and gravel aquifers (glaciated regions)" xlink:role="hydrogeologic unit"/>
+			<gww:gwWellUnit  xlink:href="http://cida.usgs.gov/ngwmn/feature/hydrogeologicunit/local.USGS.403836085374401.112PLSC" xlink:title="Pleistocene Series" xlink:role="hydrogeologic unit"/>
+			<gww:gwWellWaterUse  xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+			<gww:gwWellYield  xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+			<gww:gwWellGeology  xlink:href="http://cida.usgs.gov/ngwmn/feature/lithology-log/USGS.403836085374401">
 				<gww:GW_GeologyLog gml:id="WELL.USGS.403836085374401.lithology">
 					<gml:identifier codeSpace="http://www.ietf.org/rfc/rfc2616">http://cida.usgs.gov/ngwmn/feature/lithology-log/USGS.403836085374401</gml:identifier>
 					<om:phenomenonTime xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
@@ -229,12 +230,13 @@
 													<swe:value>BROWN</swe:value>
 												</swe:Text>
 											</swe:field>
-										</swe:DataRecord>
-										<swe:field name="lithology-description">
+											<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
+
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -265,12 +267,13 @@
 													<swe:value>BLUE</swe:value>
 												</swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -301,12 +304,13 @@
 													<swe:value>SOFT, BLUE</swe:value>
 												</swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -337,12 +341,13 @@
 													<swe:value>SOFT, BLUE</swe:value>
 												</swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -373,12 +378,13 @@
                                                     <swe:value>BLUE</swe:value>                                                                       
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -409,12 +415,13 @@
                                                     <swe:value>BLUE CLAY AND LIMESTONE PEBBLES</swe:value>                                            
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -445,12 +452,13 @@
                                                     <swe:value>BLUE</swe:value>                                                                       
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -481,12 +489,13 @@
                                                     <swe:value>COARSE GRAVEL</swe:value>                                                              
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -517,12 +526,13 @@
                                                     <swe:value>MEDIUM GRAVEL</swe:value>                                                              
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -553,12 +563,13 @@
                                                     <swe:value>BLUE</swe:value>                                                                       
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -589,12 +600,13 @@
                                                     <swe:value></swe:value>                                                                           
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+									
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+											</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -625,12 +637,13 @@
                                                     <swe:value>BLUE</swe:value>                                                                       
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -661,12 +674,13 @@
                                                     <swe:value></swe:value>                                                                           
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -697,12 +711,13 @@
                                                     <swe:value>COARSE</swe:value>                                                                     
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -733,12 +748,13 @@
                                                     <swe:value></swe:value>                                                                           
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+									
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+											</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -769,12 +785,13 @@
                                                     <swe:value>COARSE</swe:value>                                                                     
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -805,12 +822,13 @@
                                                     <swe:value>FINE GRAVEL</swe:value>                                                                
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -841,12 +859,13 @@
                                                     <swe:value></swe:value>                                                                           
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -877,12 +896,13 @@
                                                     <swe:value>MEDIUM SAND</swe:value>                                                                
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
@@ -913,12 +933,13 @@
                                                     <swe:value>BLUE</swe:value>                                                                       
                                                 </swe:Text>
 											</swe:field>
-										</swe:DataRecord>
+										
 										<swe:field name="lithology-description">
 											<swe:Category definition="http://www.opengis.net/def/gwml/2.0/observedProperty/earthMaterial">
-												<swe:value xlink:href="http://www.opengis.net/def/nil/OGC/0/unknown" xlink:title="unknown"/>
+												<swe:value>UNKNOWN</swe:value>
 											</swe:Category>
 										</swe:field>
+										</swe:DataRecord>
 									</gww:value>
 								</gww:LogValue>
 							</gww:element>
