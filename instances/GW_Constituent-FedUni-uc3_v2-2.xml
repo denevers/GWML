@@ -16,7 +16,7 @@ xmlns:gwml2c="http://www.opengis.net/gwml-constituent/2.2"
  xmlns:om="http://www.opengis.net/om/2.0" 
  xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- xsi:schemaLocation="http://www.opengis.net/gwml/2.2 http://schemas.opengis.net/gwml/2.2/gwml2.xsd 
+ xsi:schemaLocation="http://www.opengis.net/gwml/2.2 ../schemas/gwml2.xsd 
 http://www.opengis.net/samplingSpecimen/2.0 http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd">
  
 	<!-- Although all the GWML2 schema may not be required, this instance imports all GWML2 packages via gwml2.xsd for consistence between instance examples  -->

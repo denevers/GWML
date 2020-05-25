@@ -9,7 +9,7 @@ xmlns:gwml2w="http://www.opengis.net/gwml-well/2.2"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:gml="http://www.opengis.net/gml/3.2" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-numberMatched="unknown" timeStamp="2015-06-18T04:02:25.737Z" xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gwml-main/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-main.xsd" numberReturned="1">
+numberMatched="unknown" timeStamp="2015-06-18T04:02:25.737Z" xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gwml-main/2.2 ../schemas/gwml2-main.xsd" numberReturned="1">
  <!--
 Unused namespaces:
 xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" 

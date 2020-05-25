@@ -3,19 +3,19 @@
 	<annotation>
 		<documentation>Logical Model for GroundWaterML version 2.0 containing the core elements required for groundwater data. Other GWML2 application schema import this schema.
 
-        OGC WaterML 2.0 Part 4 - GroundWaterML 2 is an OGC Standard.
+        OGC WaterML 2.2 Part 4 - GroundWaterML 2 is an OGC Standard.
         Copyright (c) 2016 Open Geospatial Consortium.
         To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
 		</documentation>
-    </annotation>
+	</annotation>
 	<import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 	<import namespace="http://www.opengis.net/gsml/4.1/GeoSciML-Basic" schemaLocation="http://schemas.opengis.net/gsml/4.1/geoSciMLBasic.xsd"/>
 	<import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
 	<import namespace="http://www.isotc211.org/2005/gco" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd"/>
 	<import namespace="http://www.opengis.net/om/2.0" schemaLocation="http://schemas.opengis.net/om/2.0/observation.xsd"/>
-	<import namespace="http://www.opengis.net/gwml-constituent/2.2" schemaLocation="http://schemas.opengis.net/gwml/2.2/gwml2-constituent.xsd"/>
+	<import namespace="http://www.opengis.net/gwml-constituent/2.2" schemaLocation="gwml2-constituent.xsd"/>
 	<import namespace="http://www.opengis.net/swe/2.0" schemaLocation="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
-	<import namespace="http://www.opengis.net/gwml-flow/2.2" schemaLocation="http://schemas.opengis.net/gwml/2.2/gwml2-flow.xsd"/>
+	<import namespace="http://www.opengis.net/gwml-flow/2.2" schemaLocation="gwml2-flow.xsd"/>
 	<element name="GW_Basin" type="gwml2:GW_BasinType" substitutionGroup="gwml2:GW_HydrogeoUnit">
 		<annotation>
 			<documentation>A large hydrogeologically defined body of ground typically consisting of hydraulically connected hydrogeological units, whose waters are flowing to a common or multiple outlets, and which is delimited by a groundwater divide.</documentation>

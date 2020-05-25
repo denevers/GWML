@@ -5,7 +5,7 @@
     xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" 
     xmlns:om="http://www.opengis.net/om/2.0" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd">
+    xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 ../schemas/gwml2-well.xsd">
     <gml:description>state of the environment monitoring well with a depth of 93m</gml:description>
     <gml:identifier codeSpace="http://www.gns.cri.nz">soe.352271</gml:identifier>
     <gml:name codeSpace="http://www.gns.cri.nz">352271</gml:name>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gwml2:GW_ManagementArea xmlns:gwml2="http://www.opengis.net/gwml-main/2.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.opengis.net/gwml-main/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd"
+    xsi:schemaLocation="http://www.opengis.net/gwml-main/2.2 ../schemas/gwml2-main.xsd"
     xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gwml2f="http://www.opengis.net/gwml-flow/2.2"
     xmlns:gco="http://www.isotc211.org/2005/gco"
     xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0"

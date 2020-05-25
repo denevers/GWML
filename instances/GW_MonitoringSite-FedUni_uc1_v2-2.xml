@@ -6,7 +6,7 @@ xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"
 xmlns:gml="http://www.opengis.net/gml/3.2"  
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd 
+xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 ../schemas/gwml2-well.xsd 
 http://www.opengis.net/samplingSpecimen/2.0 http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd
 http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd">
 	

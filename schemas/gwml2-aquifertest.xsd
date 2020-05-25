@@ -3,7 +3,7 @@
 	<annotation>
 		<documentation>Describes aquifer tests, such as pump test, tracing or any other procedures aimed at estimating groundwater or aquifer properties.
 
-        OGC WaterML 2.0 Part 4 - GroundWaterML 2 is an OGC Standard.
+        OGC WaterML 2.2 Part 4 - GroundWaterML 2 is an OGC Standard.
         Copyright (c) 2016 Open Geospatial Consortium.
         To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
         </documentation>

@@ -5,7 +5,7 @@
     xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 
-    http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd"
+    ../schemas/gwml2-well.xsd"
     xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="ngmp.pub.7">
     <gwml2w:gwSpringName>Te Waikoropupu Springs ('Pupu Springs')</gwml2w:gwSpringName>
     <gwml2w:gwSpringLocation>

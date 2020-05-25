@@ -17,12 +17,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 ../schemas/gwml2-well.xsd http://www.opengis.net/samplingSpecimen/2.0 http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd">
 	<!-- ######################### 
 Location of individual GWML2 schema:
-All -"http://www.opengis.net/gwml/2.2 http://schemas.opengis.net/gwml/2.2/gwml2.xsd"
-Constituent - "http://www.opengis.net/gwml-constituent/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-constituent.xsd"
-Flow - "http://www.opengis.net/gwml-flow/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-flow.xsd"
-Well - "http://www.opengis.net/gwml-well/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd"
-Well Construction - "http://www.opengis.net/gwml-wellconstruction/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-wellconstruction.xsd"
-Nucleus - "http://www.opengis.net/gwml-nucleus/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-main.xsd"
+All -"http://www.opengis.net/gwml/2.2 ../schemas/gwml2.xsd"
+Constituent - "http://www.opengis.net/gwml-constituent/2.2 ../schemas/gwml2-constituent.xsd"
+Flow - "http://www.opengis.net/gwml-flow/2.2 ../schemas/gwml2-flow.xsd"
+Well - "http://www.opengis.net/gwml-well/2.2 ../schemas/gwml2-well.xsd"
+Well Construction - "http://www.opengis.net/gwml-wellconstruction/2.2 ../schemas/gwml2-wellconstruction.xsd"
+Nucleus - "http://www.opengis.net/gwml-nucleus/2.2 ../schemas/gwml2-main.xsd"
 -->
 	<!-- ######################### -->
 	<!-- Mapping of National Water Information System (NWIS) database tables and records to the proposed GroundWaterML2 OGC standard release candidate  -->

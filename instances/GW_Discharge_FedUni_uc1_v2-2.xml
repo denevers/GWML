@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml/3.2"
 xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 numberMatched="unknown" timeStamp="2015-08-24T05:26:59.095Z" 
-xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gwml-main/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-main.xsd" numberReturned="1">
+xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gwml-main/2.2 ../schemas/gwml2-main.xsd" numberReturned="1">
 <!-- Although all the GWML2 schema may not be required, this instance imports all GWML2 packages via gwml2.xsd for consistence between instance examples  -->
 	<!-- ######################### -->
 	<!-- Mapping of Federation University (FedUni) Groundwater database tables and records to the proposed GroundWaterML2 OGC standard release candidate version 2.2 -->

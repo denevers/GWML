@@ -7,7 +7,7 @@
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 http://schemas.opengis.net/gwml/2.2/gwml2-well.xsd"
+    xsi:schemaLocation="http://www.opengis.net/gwml-well/2.2 ../schemas/gwml2-well.xsd"
     gml:id="soe.well.352271">
 
     <gml:identifier codeSpace="http://www.gns.cri.nz">
