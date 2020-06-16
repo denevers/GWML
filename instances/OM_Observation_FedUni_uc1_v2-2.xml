@@ -73,7 +73,7 @@ A redirect service, such as the SISS PID service, is required to resolve these U
 			<om:parameter>
 				<om:NamedValue>
 					<!-- FedUni - om:parameter/om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_toParam" xlink:title="to" -->
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_toParam" xlink:title="to"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/toDistance" xlink:title="to"/>
 					<om:value xsi:type="swe:QuantityPropertyType">
 						<swe:Quantity>
 							<!-- FedUni - swe:uom xlink:href="http://qudt.org/vocab/unit#Meter" xlink:title="m from top" -->
@@ -171,7 +171,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			<om:parameter>
 				<om:NamedValue>
 					<!-- FedUni - om:parameter/om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_toParam" xlink:title="to" -->
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_toParam" xlink:title="to"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/toDistance" xlink:title="to"/>
 					<om:value>
 						<swe:Quantity>
 							<!-- FedUni - swe:uom xlink:href="http://qudt.org/vocab/unit#Meter" xlink:title="m from top" -->
@@ -414,7 +414,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			</om:parameter>
 			<om:parameter>
 				<om:NamedValue>
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_toParam" xlink:title="to"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/toDistance" xlink:title="to"/>
 					<om:value xsi:type="swe:QuantityPropertyType">
 						<swe:Quantity>
 							<swe:uom xlink:href="http://qudt.org/vocab/unit#Meter" xlink:title="m from top"/>
