@@ -69,7 +69,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:swe="http://www.opengis.net/swe
 			</om:parameter>
 			<om:parameter>
 				<om:NamedValue>
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_observation_spatial-reference" xlink:title="geometry"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/referenceGeometry" xlink:title="geometry"/>
 					<om:value xsi:type="gml:GeometryPropertyType" xlink:href="#ab.ww.402557.shape.1"/>
 				</om:NamedValue>
 			</om:parameter>

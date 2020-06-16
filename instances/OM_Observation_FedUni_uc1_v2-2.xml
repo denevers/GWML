@@ -87,7 +87,7 @@ A redirect service, such as the SISS PID service, is required to resolve these U
 			<om:parameter>
 			<!-- NamedValue of type gml:ReferenceType to point to the Geometry of the well  -->
     <om:NamedValue>
-        <om:name xlink:href="http://www.opengis.net/req/gw_well/reference-geometry" xlink:title="reference geometry"/> 
+        <om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/referenceGeometry" xlink:title="reference geometry"/> 
         <om:value xsi:type="gml:CurvePropertyType" xlink:href="http://groundwater.victoria.com.au/feature/observation/feduni.borehole.51409#feduni.borehole.stratigraphic-shape.51409"/> <!-- pointing to the shape gml:id in the GW_Well feature (bore id).   -->
      </om:NamedValue>
 </om:parameter>
@@ -185,7 +185,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			<om:parameter>
 			<!-- NamedValue of type gml:ReferenceType to point to the Geometry of the well  -->
     <om:NamedValue>
-        <om:name xlink:href="http://www.opengis.net/req/gw_well/reference-geometry" xlink:title="reference geometry"/> 
+        <om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/referenceGeometry" xlink:title="reference geometry"/> 
         <om:value xsi:type="gml:CurvePropertyType" xlink:href="http://groundwater.victoria.com.au/feature/observation/feduni.borehole.51409#feduni.borehole.stratigraphic-shape.51409"/> <!-- pointing to the shape gml:id in the GW_Well feature (bore id).   -->
      </om:NamedValue>
 </om:parameter>
@@ -230,7 +230,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			<om:parameter>
 			<!-- NamedValue of type gml:ReferenceType to point to the Geometry of the well  -->
     <om:NamedValue>
-        <om:name xlink:href="http://www.opengis.net/req/gw_well/reference-geometry" xlink:title="reference geometry"/> 
+        <om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/referenceGeometry" xlink:title="reference geometry"/> 
         <om:value xsi:type="gml:CurvePropertyType" xlink:href="http://groundwater.victoria.com.au/feature/observation/feduni.borehole.51409#feduni.borehole.stratigraphic-shape.51409"/> <!-- pointing to the shape gml:id in the GW_Well feature (bore id).   -->
      </om:NamedValue>
 </om:parameter>
@@ -425,7 +425,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			</om:parameter>
 			<om:parameter>
     <om:NamedValue>
-        <om:name xlink:href="http://www.opengis.net/req/gw_well/reference-geometry" xlink:title="reference geometry"/> 
+        <om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/referenceGeometry" xlink:title="reference geometry"/> 
         <om:value xsi:type="gml:CurvePropertyType" xlink:href="http://groundwater.victoria.com.au/feature/observation/feduni.borehole.51409#feduni.borehole.stratigraphic-shape.51409"/> 
      </om:NamedValue>
 </om:parameter>
