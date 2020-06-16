@@ -58,7 +58,7 @@ A redirect service, such as the SISS PID service, is required to resolve these U
 			<om:parameter>
 				<om:NamedValue>
 					<!-- FedUni - om:parameter/om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_fromParam" xlink:title="from" -->
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_fromParam" xlink:title="from"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/fromDistance" xlink:title="from"/>
 					<om:value xsi:type="swe:QuantityPropertyType">
 						<swe:Quantity>
 							<!-- FedUni - swe:uom xlink:href="http://qudt.org/vocab/unit#Meter" xlink:title="m from top" -->
@@ -156,7 +156,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			<om:parameter>
 				<om:NamedValue>
 					<!-- FedUni - om:parameter/om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_fromParam" xlink:title="from" -->
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_fromParam" xlink:title="from"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/fromDistance" xlink:title="from"/>
 					<om:value xsi:type="swe:QuantityPropertyType">
 						<swe:Quantity>
 							<!-- FedUni - swe:uom xlink:href="http://qudt.org/vocab/unit#Meter" xlink:title="m from top" -->
@@ -403,7 +403,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			<om:procedure xlink:title="titration"/>
 			<om:parameter>
 				<om:NamedValue>
-					<om:name xlink:href="http://www.opengis.net/req/gw_well/waterwell_sf_fromParam" xlink:title="from"/>
+					<om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/fromDistance" xlink:title="from"/>
 					<om:value xsi:type="swe:QuantityPropertyType">
 						<swe:Quantity>
 							<swe:uom xlink:href="http://qudt.org/vocab/unit#Meter" xlink:title="m from top"/>
@@ -425,7 +425,7 @@ Ammonia: xlink:href="http://environment.data.gov.au/def/property/ammonia_concent
 			</om:parameter>
 			<om:parameter>
     <om:NamedValue>
-        <om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/referenceGeometry" xlink:title="reference geometry"/> 
+        <om:name xlink:href="http://www.opengis.net/def/param-name/GWML/2.2/fromDistance" xlink:title="reference geometry"/> 
         <om:value xsi:type="gml:CurvePropertyType" xlink:href="http://groundwater.victoria.com.au/feature/observation/feduni.borehole.51409#feduni.borehole.stratigraphic-shape.51409"/> 
      </om:NamedValue>
 </om:parameter>
