@@ -647,28 +647,28 @@ Sampling features relevant to this test and their role.  They can also be found 
 	
 	<sam:relatedSamplingFeature>
 		<sam:SamplingFeatureComplex>
-			<sam:role xlink:href="&gwvoc;/def/role/observationFeature" xlink:title="Well at which the observation was done"/>
+			<sam:role xlink:href="&gwvoc;/def/role/observationfeature" xlink:title="Well at which the observation was done"/>
 			<sam:relatedSamplingFeature xlink:href="http://example.gw.com/samplingFeature/WellWit63h215"/>
 		</sam:SamplingFeatureComplex>
 	</sam:relatedSamplingFeature>	
 	
 	<sam:relatedSamplingFeature>
 		<sam:SamplingFeatureComplex>
-			<sam:role xlink:href="&gwvoc;/def/role/observationFeature" xlink:title="Well at which the observation was done"/>
+			<sam:role xlink:href="&gwvoc;/def/role/observationfeature" xlink:title="Well at which the observation was done"/>
 			<sam:relatedSamplingFeature xlink:href="http://example.gw.com/samplingFeature/WellWit63h90"/>
 		</sam:SamplingFeatureComplex>
 	</sam:relatedSamplingFeature>	
 	
 		<sam:relatedSamplingFeature>
 		<sam:SamplingFeatureComplex>
-			<sam:role xlink:href="&gwvoc;/def/role/observationFeature" xlink:title="Well at which the observation was done"/>
+			<sam:role xlink:href="&gwvoc;/def/role/observationfeature" xlink:title="Well at which the observation was done"/>
 			<sam:relatedSamplingFeature xlink:href="http://example.gw.com/samplingFeature/WellWit63h08"/>
 		</sam:SamplingFeatureComplex>
 	</sam:relatedSamplingFeature>	
 	
 	<sam:relatedSamplingFeature>
 		<sam:SamplingFeatureComplex>
-			<sam:role xlink:href="&gwvoc;/def/role/observationFeature" xlink:title="Well at which the observation was done"/>
+			<sam:role xlink:href="&gwvoc;/def/role/observationfeature" xlink:title="Well at which the observation was done"/>
 			<sam:relatedSamplingFeature xlink:href="http://example.gw.com/samplingFeature/WellWit63h30"/>
 		</sam:SamplingFeatureComplex>
 	</sam:relatedSamplingFeature>	
